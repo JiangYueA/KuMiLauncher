@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- PagedView specific attributes.-->
+    <declare-styleable name="PagedView">
+        <!-- A spacing override for the icons within a page -->
+        <attr name="pageLayoutWidthGap" format="dimension" />
+        <attr name="pageLayoutHeightGap" format="dimension" />
+        <!-- The padding of the pages that are dynamically created per page -->
+        <attr name="pageLayoutPaddingTop" format="dimension" />
+        <attr name="pageLayoutPaddingBottom" format="dimension" />
+        <attr name="pageLayoutPaddingLeft" format="dimension" />
+        <attr name="pageLayoutPaddingRight" format="dimension" />
+        <!-- The space between adjacent pages of the PagedView. -->
+        <attr name="pageSpacing" format="dimension" />
+        <!-- The page indicator for this workspace -->
+        <attr name="pageIndicator" format="reference" />
+    </declare-styleable>
+
+
+    <!-- Page Indicator specific attributes.-->
+    <declare-styleable name="PageIndicator">
+        <!-- Used to identify how to draw the cling bg -->
+        <attr name="windowSize" format="integer" />
+    </declare-styleable>
+
+</resources>
