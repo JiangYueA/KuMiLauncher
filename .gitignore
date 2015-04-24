@@ -29,3 +29,6 @@ proguard/
 # public ssh
 id_rsa
 id_rsa.pub
+
+# idea
+.idea
